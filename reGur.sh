@@ -59,7 +59,7 @@ then
 printf " ${white}[*] ${red}This script must be run as root ${white}[*]\n"
 exit
 fi
-read -p "Are you sure ? [ Y / n ] : " check
+read -p "Are you sure to allow this bypasser ? [ Y / n ] : " check
 if [ $check = "Y" ]; then
 curl -s 'https://pastebin.com/raw/YLBrgL20' >> /etc/hosts
 elif [ $check = "y" ]; then
