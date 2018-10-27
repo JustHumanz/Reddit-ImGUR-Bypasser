@@ -1,6 +1,6 @@
 #!/bin/bash
 
-###############################################################
+#################################################################################################################
 #
 #  Author      :~ B1p0l4r | IndoXploit
 #  Language    :~ Shell Scripting 
@@ -8,10 +8,10 @@
 #
 #
 #  Install and Use (Must Be Root)
-#  :~ 
+#  :~ wget https://raw.githubusercontent.com/abdiprawiran/Reddit-ImGUR-Bypasser/master/reGur.sh && bash reGur.sh
 #
-#
-#
+#################################################################################################################
+
 #Kancut a.k.a Colours
 white="\033[1;37m"
 grey="\033[0;37m"
