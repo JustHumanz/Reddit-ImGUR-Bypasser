@@ -5,10 +5,12 @@
 #  Author      :~ B1p0l4r | IndoXploit
 #  Language    :~ Shell Scripting 
 #  Vendor Home :~ https://www.indoxploit.or.id
-#
+#  Tested on   :~ Ubuntu 16.04 & Manjaro
+#  Thanks to   :~ ZeroByte.ID | IndoXploit
 #
 #  Install and Use (Must Be Root)
 #  :~ wget https://raw.githubusercontent.com/abdiprawiran/Reddit-ImGUR-Bypasser/master/reGur.sh && bash reGur.sh
+#
 #
 #################################################################################################################
 
