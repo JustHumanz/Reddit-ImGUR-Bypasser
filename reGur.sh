@@ -60,15 +60,7 @@ printf " ${white}[*] ${red}This script must be run as root ${white}[*]\n"
 exit
 fi
 read -p "Are you sure to allow this bypasser ? [ Y / n ] : " check
-if [ $check = "Y" ]; then
-curl -s 'https://pastebin.com/raw/YLBrgL20' >> /etc/hosts
-elif [ $check = "y" ]; then
-curl -s 'https://pastebin.com/raw/YLBrgL20' >> /etc/hosts
-elif [ $check = "Yes" ]; then
-curl -s 'https://pastebin.com/raw/YLBrgL20' >> /etc/hosts
-elif [ $check = "yes" ]; then
-curl -s 'https://pastebin.com/raw/YLBrgL20' >> /etc/hosts
-elif [ $check = "YES" ]; then
+if [[ $check == "Y" || $check == "y" || $check == "Yes" || $check == "yes" ||  $check == "YES" ]]; then
 curl -s 'https://pastebin.com/raw/YLBrgL20' >> /etc/hosts
 else
 echo -e "$white[*] $red Goodbye :(  $white[*]"
